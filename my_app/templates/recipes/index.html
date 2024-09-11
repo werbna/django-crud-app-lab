@@ -1,0 +1,19 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block head %}
+
+{% endblock %}
+{% block content %}
+<section>
+  <h1>All Recipes</h1>
+</section>
+
+<section>
+  {% for recipe in recipes %}
+  <article>
+    <h2>{{ recipe.title }}</h2>
+    <p>{{ recipe.description }}</p>
+    <p>{{ recipe.instructions }}</p>
+  </article>
+  {% endfor %}
+</section>
