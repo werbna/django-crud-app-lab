@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'whats_cookin_good_lookin.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'whatscookingoodlookin',
+        'NAME': 'whatscookingoodlookin'
     }
 }
 
